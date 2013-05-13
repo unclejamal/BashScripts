@@ -1,4 +1,9 @@
 #!/bin/bash
+# grep -o - show only matching part
+# grep -h - don't show the file name
+# grep -l - show only the file name
+# grep -v - invert match
+
 
 # how many production files reference the $class
 function class_count {
